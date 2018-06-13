@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { NavigationComponent } from './navigation/navigation.component';
+import { SurveillanceComponent } from './surveillance/surveillance.component';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  title = 'This is my first project with angular 5';
 }

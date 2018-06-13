@@ -1,0 +1,4 @@
+
+<div>the data from parent: {{count}}</div>
+<app-surveillance [title]="count"  (change)="updateFromChild($event)"></app-surveillance>
+<app-on-event-compoment (toggle-todo) ="oneEvent($event)"></app-on-event-compoment>
